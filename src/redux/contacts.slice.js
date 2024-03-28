@@ -1,4 +1,4 @@
-import { createSlice, current } from '@reduxjs/toolkit';
+import { createSlice } from '@reduxjs/toolkit';
 import { initState } from './initState';
 import { persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
